@@ -5,8 +5,8 @@
 
 export const images = {
   // Hero / Brand
-    hero: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf9u4o6KxCGeJAGT9T_XSz6DfHY5mE_UOwIN_u9_XKARXmvXd348GPocBV3j992SqfStkApSMzqu65GFOcvC80HYqK94LE11pkXUEzK8z-em5doHoJcNcHIIulPBMrpY13p5Q_Iqpoalo=s1360-w1360-h1020-rw',
- heroFallback: '/Alex-caf-/images/hero-storefront.jpg',
+      hero: '/Alex-caf-/images/hero-storefront.jpg',
+heroFallback: '/Alex-caf-/images/hero-storefront.jpg',
 
   // Food & Drink — used in menu highlights, homepage sections
   cappuccino: '/Alex-caf-/images/cappuccino.jpg',
