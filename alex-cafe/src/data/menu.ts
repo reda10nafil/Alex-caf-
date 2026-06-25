@@ -117,7 +117,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'sprite',
         name: 'Sprite',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-oaE6Zllcc6Y?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-D8HnJJwgBt8?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'te-pesca',
