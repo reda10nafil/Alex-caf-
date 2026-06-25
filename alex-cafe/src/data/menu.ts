@@ -35,7 +35,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'corretto', name: 'Corretto', price: 1.60, image: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80' },
       { id: 'ginseng-piccolo', name: 'Ginseng Piccolo', price: 1.40, image: 'https://images.pexels.com/photos/32549380/pexels-photo-32549380.jpeg' },
       { id: 'ginseng-grande', name: 'Ginseng Grande', price: 1.60, image: 'https://images.pexels.com/photos/32549380/pexels-photo-32549380.jpeg },
-      { id: 'orzo-piccolo', name: 'Orzo Piccolo', price: 1.40, image: 'https://images.pexels.com/photos/36010244/pexels-photo-36010244.jpeg?auto=format&fit=crop&w=800&q=80' },
+      { id: 'orzo-piccolo', name: 'Orzo Piccolo', price: 1.40, image: 'https://images.pexels.com/photos/36010244/pexels-photo-36010244.jpeg' },
       { id: 'orzo-grande', name: 'Orzo Grande', price: 1.60, image: 'https://images.pexels.com/photos/36010244/pexels-photo-36010244.jpeg' },
       { id: 'cappuccino', name: 'Cappuccino', price: 1.50, image: 'https://images.pexels.com/photos/6747870/pexels-photo-6747870.jpeg', tags: ['best-seller'], isFeatured: true },
       { id: 'cappuccino-soia', name: 'Cappuccino Soia', price: 1.60, image: 'https://images.pexels.com/photos/30841381/pexels-photo-30841381.jpeg' },
