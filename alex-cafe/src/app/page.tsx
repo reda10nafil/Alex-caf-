@@ -95,13 +95,13 @@ function HighlightsSection() {
   );
 }
 
-/* ──────────────── BREAKFAST GALLERY ──────────────── */
-function BreakfastGallery() {
+/* ──────────────── Mattina GALLERY ──────────────── */
+function MattinaGallery() {
   const items = [
     { src: images.cappuccino, alt: 'Cappuccino con latte art', label: 'Caffetteria' },
     { src: images.cornetto, alt: 'Cornetto sfogliato', label: 'Colazioni' },
-    { src: images.breakfast, alt: 'Colazione completa', label: 'Breakfast' },
-    { src: images.pastries, alt: 'Pasticceria fresca', label: 'Brioches' },
+    { src: images.Mattina, alt: 'Colazione completa', label: 'Mattina' },
+    { src: images.pastries, alt: 'Pasticceria fresca', label: 'Pasticceria' },
   ];
 
   return (
@@ -372,7 +372,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <HighlightsSection />
-      <BreakfastGallery />
+      <MattinaGallery />
       <AperitivoSection />
       <OffersSection />
       <EventsSection />
