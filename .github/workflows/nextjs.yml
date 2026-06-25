@@ -18,7 +18,7 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# Allow only one concurrent deployment, skipping runs queued between the run-in-progress and latest queued.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -73,6 +73,9 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Download hero image reale bar
+        working-directory: ./alex-cafe
+        run: wget -O out/images/hero-storefront.jpg "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf9u4o6KxCGeJAGT9T_XSz6DfHY5mE_UOwIN_u9_XKARXmvXd348GPocBV3j992SqfStkApSMzqu65GFOcvC80HYqK94LE11pkXUEzK8z-em5doHoJcNcHIIulPBMrpY13p5Q_Iqpoalo=s1360-w1360-h1020-rw" || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -88,4 +91,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
