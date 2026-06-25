@@ -28,7 +28,7 @@ export const menuCategories: MenuCategory[] = [
     icon: '☕',
     items: [
       { id: 'caffe', name: 'Caffè', price: 1.20, image: 'https://images.unsplash.com/photo-dAYJfrtVjh0?auto=format&fit=crop&w=800&q=80' },
-      { id: 'ristretto', name: 'Ristretto', price: 1.20, image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80' },
+      { id: 'ristretto', name: 'Ristretto', price: 1.20, image: 'https://images.unsplash.com/photo-C7JyY9BBQ88?auto=format&fit=crop&w=800&q=80' },
       { id: 'lungo', name: 'Lungo', price: 1.20, image: 'https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&w=800&q=80' },
       { id: 'deck', name: 'Deck', price: 1.30, image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80' },
       { id: 'macchiato', name: 'Macchiato', price: 1.20, image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
