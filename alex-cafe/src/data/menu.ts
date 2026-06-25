@@ -31,7 +31,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'ristretto', name: 'Ristretto', price: 1.20, image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80' },
       { id: 'lungo', name: 'Lungo', price: 1.20, image: 'https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&w=800&q=80' },
       { id: 'deck', name: 'Deck', price: 1.30, image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80' },
-      { id: 'macchiato', name: 'Macchiato', price: 1.20, image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
+      { id: 'macchiato', name: 'Macchiato', price: 1.20, image: 'https://images.pexels.com/photos/29036588/pexels-photo-29036588.jpeg' },
       { id: 'corretto', name: 'Corretto', price: 1.60, image: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80' },
       { id: 'ginseng-piccolo', name: 'Ginseng Piccolo', price: 1.40, image: 'https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80' },
       { id: 'ginseng-grande', name: 'Ginseng Grande', price: 1.60, image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
