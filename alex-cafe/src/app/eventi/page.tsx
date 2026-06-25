@@ -1,6 +1,7 @@
 'use client';
 
 import { events, featuredEvent } from '@/data/events';
+import Link from 'next/link';
 import ImageWithFallback from '@/components/ui/ImageWithFallback';
 
 export default function EventiPage() {
@@ -44,7 +45,7 @@ export default function EventiPage() {
                 </div>
                 <p className="text-[var(--color-stone-dark)] max-w-xl mx-auto mb-8">{featuredEvent.description}</p>
                 {featuredEvent.bookingEnabled && (
-                  <a href="/prenota" className="inline-flex items-center px-8 py-4 bg-[var(--color-accent)] text-white font-semibold text-lg rounded-[var(--radius-lg)] hover:bg-[var(--color-accent-dark)] active:scale-[0.98] touch-manipulation transition-all duration-150 min-h-[52px]">
+                  <Link href="/prenota" className="inline-flex items-center px-8 py-4 bg-[var(--color-accent)] text-white font-semibold text-lg rounded-[var(--radius-lg)] hover:bg-[var(--color-accent-dark)] active:scale-[0.98] touch-manipulation transition-all duration-150 min-h-[52px]">
                     Prenota posto
                   </a>
                 )}
@@ -91,7 +92,7 @@ export default function EventiPage() {
                       {event.capacity && <span>👥 Max {event.capacity} persone</span>}
                     </div>
                     {event.bookingEnabled && (
-                      <a href="/prenota" className="inline-flex items-center px-5 py-2.5 bg-[var(--color-accent)] text-white text-sm font-semibold rounded-[var(--radius-lg)] hover:bg-[var(--color-accent-dark)] active:scale-[0.98] touch-manipulation transition-all min-h-[44px]">
+                      <Link href="/prenota" className="inline-flex items-center px-5 py-2.5 bg-[var(--color-accent)] text-white text-sm font-semibold rounded-[var(--radius-lg)] hover:bg-[var(--color-accent-dark)] active:scale-[0.98] touch-manipulation transition-all min-h-[44px]">
                         Prenota posto
                       </a>
                     )}
