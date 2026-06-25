@@ -147,7 +147,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'succo-frutta',
         name: 'Succo di Frutta',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-pPhN8HFzkDE?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'acqua',
