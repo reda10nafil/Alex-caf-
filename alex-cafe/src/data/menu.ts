@@ -97,110 +97,111 @@ export const menuCategories: MenuCategory[] = [
     ],
   },
   {
-    {
-  id: 'bevande',
-  name: 'Bevande',
-  icon: '🥤',
-  items: [
-    {
-      id: 'coca-cola',
-      name: 'Coca Cola',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'fanta',
-      name: 'Fanta',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1624517452488-04869289c4ca?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'sprite',
-      name: 'Sprite',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'te-pesca',
-      name: 'Tè Pesca',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'te-limone',
-      name: 'Tè Limone',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'lemon-soda',
-      name: 'Lemon Soda',
-      price: 3.00,
-      image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'schweppes',
-      name: 'Schweppes',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'succo-frutta',
-      name: 'Succo di Frutta',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1600271886742-f049cd5bba3f?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'acqua',
-      name: 'Acqua',
-      price: 1.00,
-      image: 'https://images.unsplash.com/photo-1564419320461-6870880221ad?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'red-bull',
-      name: 'Red Bull',
-      price: 3.50,
-      image: 'https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'crodino',
-      name: 'Crodino',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'calice-vino',
-      name: 'Calice di Vino',
-      price: 3.00,
-      image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'amaro',
-      name: 'Amaro',
-      price: 3.00,
-      image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'spritz',
-      name: 'Spritz',
-      price: 5.00,
-      image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'cocktail',
-      name: 'Cocktail',
-      price: 6.00,
-      image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
-    },
-    {
-      id: 'latte-menta',
-      name: 'Latte Menta',
-      price: 1.50,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80',
-    },
-  ],
-},
-]
+      {
+    id: 'bevande',
+    name: 'Bevande',
+    icon: '🥤',
+    items: [
+      {
+        id: 'coca-cola',
+        name: 'Coca Cola',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'fanta',
+        name: 'Fanta',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1624517452488-04869289c4ca?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'sprite',
+        name: 'Sprite',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'te-pesca',
+        name: 'Tè Pesca',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'te-limone',
+        name: 'Tè Limone',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'lemon-soda',
+        name: 'Lemon Soda',
+        price: 3.00,
+        image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'schweppes',
+        name: 'Schweppes',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'succo-frutta',
+        name: 'Succo di Frutta',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1600271886742-f049cd5bba3f?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'acqua',
+        name: 'Acqua',
+        price: 1.00,
+        image: 'https://images.unsplash.com/photo-1564419320461-6870880221ad?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'red-bull',
+        name: 'Red Bull',
+        price: 3.50,
+        image: 'https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'crodino',
+        name: 'Crodino',
+        price: 2.50,
+        image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'calice-vino',
+        name: 'Calice di Vino',
+        price: 3.00,
+        image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'amaro',
+        name: 'Amaro',
+        price: 3.00,
+        image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'spritz',
+        name: 'Spritz',
+        price: 5.00,
+        image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'cocktail',
+        name: 'Cocktail',
+        price: 6.00,
+        image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
+      },
+      {
+        id: 'latte-menta',
+        name: 'Latte Menta',
+        price: 1.50,
+        image: 'https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80',
+      },
+    ],
+  },
+];
+
 export const featuredItems: MenuItem[] = menuCategories
   .flatMap((cat) => cat.items)
   .filter((item) => item.isFeatured);
