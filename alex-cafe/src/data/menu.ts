@@ -33,7 +33,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'deck', name: 'Deck', price: 1.30, image: 'https://images.unsplash.com/photo-p3dGOGBFbP4?auto=format&fit=crop&w=800&q=80' },
       { id: 'macchiato', name: 'Macchiato', price: 1.20, image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
       { id: 'corretto', name: 'Corretto', price: 1.60, image: 'https://images.unsplash.com/photo-NwBe4uZfUU8?auto=format&fit=crop&w=800&q=80' },
-      { id: 'ginseng-piccolo', name: 'Ginseng Piccolo', price: 1.40, image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80' },
+      { id: 'ginseng-piccolo', name: 'Ginseng Piccolo', price: 1.40, image: 'https://images.unsplash.com/photo-qLJo7pd0Gyc?auto=format&fit=crop&w=800&q=80' },
       { id: 'ginseng-grande', name: 'Ginseng Grande', price: 1.60, image: 'https://images.unsplash.com/photo-1ycQdI4plO8?auto=format&fit=crop&w=800&q=80' },
       { id: 'orzo-piccolo', name: 'Orzo Piccolo', price: 1.40, image: 'https://images.unsplash.com/photo-1ycQdI4plO8?auto=format&fit=crop&w=800&q=80' },
       { id: 'orzo-grande', name: 'Orzo Grande', price: 1.60, image: 'https://images.unsplash.com/photo-1ycQdI4plO8?auto=format&fit=crop&w=800&q=80' },
