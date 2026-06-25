@@ -62,7 +62,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'brioches-mignon', name: 'Brioches Mignon', price: 1.00, image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80' },
       { id: 'biscotti', name: 'Biscotti', price: 1.50, image: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80' },
       { id: 'baci-di-dama', name: 'Baci di Dama', price: 0.80, image: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80' },
-      { id: 'loacker', name: 'Loacker', price: 0.30, image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80' },
+      { id: 'loacker', name: 'Loacker', price: 0.30, image: 'https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=800&q=80' },
       { id: 'torta', name: 'Torta', price: 1.50, image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80' },
       { id: 'macedonia', name: 'Macedonia', price: 3.50, image: 'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=800&q=80' },
     ],
@@ -76,7 +76,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'panino-mignon', name: 'Panino Mignon', price: 1.50, image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80' },
       { id: 'pizzetta', name: 'Pizzetta', price: 2.00, image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80' },
       { id: 'tost', name: 'Tost', price: 3.00, image: 'https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80' },
-      { id: 'piadina', name: 'Piadina', price: 4.00, image: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80' },
+      { id: 'piadina', name: 'Piadina', price: 4.00, image: 'https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=80' },
     ],
   },
   {
@@ -105,7 +105,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'coca-cola',
         name: 'Coca Cola',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'fanta',
@@ -117,7 +117,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'sprite',
         name: 'Sprite',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1585173203382-21401f4de7c7?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'te-pesca',
@@ -147,7 +147,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'succo-frutta',
         name: 'Succo di Frutta',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-1600271886742-f049cd5bba3f?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'acqua',
