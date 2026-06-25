@@ -105,7 +105,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'coca-cola',
         name: 'Coca Cola',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-VM6uuMFPIGM?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'fanta',
@@ -117,7 +117,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'sprite',
         name: 'Sprite',
         price: 2.50,
-        image: 'https://images.unsplash.com/photo-oaE6Zllcc6Y?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'te-pesca',
@@ -195,7 +195,7 @@ export const menuCategories: MenuCategory[] = [
         id: 'latte-menta',
         name: 'Latte Menta',
         price: 1.50,
-        image: 'https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1635436338433-89747d0ca0ef?auto=format&fit=crop&w=800&q=80',
       },
     ],
   },
