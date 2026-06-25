@@ -48,7 +48,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'latte-bianco', name: 'Latte Bianco', price: 1.00, image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=80' },
       { id: 'latte-macchiato', name: 'Latte Macchiato', price: 1.50, image: 'https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80' },
       { id: 'americano', name: 'Americano', price: 1.20, image: 'https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&w=800&q=80' },
-      { id: 'caffe-leccese', name: 'Caffè Leccese', price: 1.80, image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80' },
+      { id: 'caffe-leccese', name: 'Caffè Leccese', price: 1.80, image: 'https://images.unsplash.com/photo-02O1bXB_fgk?auto=format&fit=crop&w=800&q=80' },
       { id: 'spremuta', name: 'Spremuta', price: 3.00, image: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80' },
       { id: 'frullato', name: 'Frullato', price: 4.00, image: 'https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=800&q=80' },
     ],
