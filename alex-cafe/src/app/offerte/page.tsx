@@ -2,6 +2,7 @@
 
 import { offers } from '@/data/offers';
 import { businessInfo } from '@/data/business';
+import { images } from '@/data/images';
 import ImageWithFallback from '@/components/ui/ImageWithFallback';
 
 const audienceLabels: Record<string, string> = {
@@ -21,10 +22,10 @@ const audienceColors: Record<string, string> = {
 };
 
 const offerImages: Record<string, string> = {
-  'colazione-mercatina': '/images/breakfast.jpg',
-  'aperitivo-vicinato': '/images/spritz.jpg',
-  'studenti-lavoro': '/images/cappuccino.jpg',
-  'weekend-brunch': '/images/cornetto.jpg',
+  'colazione-mercatina': images.breakfast,
+  'aperitivo-vicinato': images.spritz,
+  'studenti-lavoro': images.cappuccino,
+  'weekend-brunch': images.cornetto,
 };
 
 export default function OffertePage() {
@@ -33,7 +34,7 @@ export default function OffertePage() {
       {/* Hero */}
       <section className="relative bg-[var(--bg-darker)] py-16 sm:py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <ImageWithFallback src="/images/spritz.jpg" alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #C4622D, #A84E1F)" />
+          <ImageWithFallback src={images.spritz} alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #C4622D, #A84E1F)" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-[var(--color-cream)] mb-4" style={{ fontFamily: 'var(--font-display)' }}>
@@ -60,7 +61,7 @@ export default function OffertePage() {
                   {/* Offer image */}
                   <div className="sm:w-56 h-48 sm:h-auto relative overflow-hidden flex-shrink-0">
                     <ImageWithFallback
-                      src={offerImages[offer.id] || '/images/aperitivo.jpg'}
+                      src={offerImages[offer.id] || images.aperitivo}
                       alt={offer.title}
                       className="w-full h-full object-cover"
                       fallbackGradient="linear-gradient(135deg, #3C2A1A, #5A4232)"

@@ -2,6 +2,7 @@
 
 import { events, featuredEvent } from '@/data/events';
 import Link from 'next/link';
+import { images } from '@/data/images';
 import ImageWithFallback from '@/components/ui/ImageWithFallback';
 
 export default function EventiPage() {
@@ -10,7 +11,7 @@ export default function EventiPage() {
       {/* Hero */}
       <section className="relative bg-[var(--bg-darker)] py-16 sm:py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <ImageWithFallback src="/images/aperitivo.jpg" alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #3C2A1A, #5A4232)" />
+          <ImageWithFallback src={images.aperitivo} alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #3C2A1A, #5A4232)" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-[var(--color-cream)] mb-4" style={{ fontFamily: 'var(--font-display)' }}>
@@ -29,7 +30,7 @@ export default function EventiPage() {
             <div className="relative bg-[var(--bg-darker)] rounded-[var(--radius-2xl)] overflow-hidden">
               {/* Background image */}
               <div className="absolute inset-0 opacity-20">
-                <ImageWithFallback src="/images/spritz.jpg" alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #C4622D, #A84E1F)" />
+                <ImageWithFallback src={images.spritz} alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #C4622D, #A84E1F)" />
               </div>
               <div className="relative z-10 p-8 sm:p-12 text-center">
                 <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider bg-[var(--color-accent)] text-white rounded-full mb-4">
@@ -68,7 +69,7 @@ export default function EventiPage() {
                   {/* Event image */}
                   <div className="sm:w-48 h-40 sm:h-auto relative overflow-hidden flex-shrink-0">
                     <ImageWithFallback
-                      src={event.coverImage || '/images/aperitivo.jpg'}
+                      src={event.coverImage || images.aperitivo}
                       alt={event.title}
                       className="w-full h-full object-cover"
                       fallbackGradient="linear-gradient(135deg, #3C2A1A, #5A4232)"

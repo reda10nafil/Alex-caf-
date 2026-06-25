@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { offers } from '@/data/offers';
 import { events } from '@/data/events';
 import { businessInfo } from '@/data/business';
+import { images } from '@/data/images';
 import ImageWithFallback from '@/components/ui/ImageWithFallback';
 
 /* ──────────────── HERO ──────────────── */
@@ -13,7 +14,7 @@ function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="/images/hero-storefront.jpg"
+          src={images.hero}
           alt="Alex Cafe — esterno del locale"
           className="w-full h-full object-cover"
           fallbackGradient="linear-gradient(135deg, #2D2926 0%, #3C2A1A 50%, #5A4232 100%)"
@@ -97,10 +98,10 @@ function HighlightsSection() {
 /* ──────────────── BREAKFAST GALLERY ──────────────── */
 function BreakfastGallery() {
   const items = [
-    { src: '/images/cappuccino.jpg', alt: 'Cappuccino con latte art', label: 'Caffetteria' },
-    { src: '/images/cornetto.jpg', alt: 'Cornetto sfogliato', label: 'Colazioni' },
-    { src: '/images/breakfast.jpg', alt: 'Colazione completa', label: 'Breakfast' },
-    { src: '/images/pastries.jpg', alt: 'Pasticceria fresca', label: 'Brioches' },
+    { src: images.cappuccino, alt: 'Cappuccino con latte art', label: 'Caffetteria' },
+    { src: images.cornetto, alt: 'Cornetto sfogliato', label: 'Colazioni' },
+    { src: images.breakfast, alt: 'Colazione completa', label: 'Breakfast' },
+    { src: images.pastries, alt: 'Pasticceria fresca', label: 'Brioches' },
   ];
 
   return (
@@ -144,7 +145,7 @@ function AperitivoSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="relative aspect-[4/3] rounded-[var(--radius-2xl)] overflow-hidden shadow-[var(--shadow-lg)]">
             <ImageWithFallback
-              src="/images/spritz.jpg"
+              src={images.spritz}
               alt="Aperol Spritz con tagliere di aperitivo"
               className="w-full h-full object-cover"
               fallbackGradient="linear-gradient(135deg, #C4622D 0%, #A84E1F 100%)"

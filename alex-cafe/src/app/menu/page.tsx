@@ -3,15 +3,16 @@
 import { useState } from 'react';
 import { menuCategories } from '@/data/menu';
 import type { MenuItem } from '@/data/menu';
+import { images } from '@/data/images';
 import ImageWithFallback from '@/components/ui/ImageWithFallback';
 
 // Map category IDs to representative images
 const categoryImages: Record<string, string> = {
-  caffetteria: '/images/cappuccino.jpg',
-  dolci: '/images/pastries.jpg',
-  salato: '/images/panino.jpg',
-  birre: '/images/spritz.jpg',
-  bevande: '/images/aperitivo.jpg',
+  caffetteria: images.cappuccino,
+  dolci: images.pastries,
+  salato: images.panino,
+  birre: images.spritz,
+  bevande: images.aperitivo,
 };
 
 function MenuCard({ item, categoryImage }: { item: MenuItem; categoryImage: string }) {
@@ -73,13 +74,13 @@ export default function MenuPage() {
         {/* Background collage */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-1/3 h-full">
-            <ImageWithFallback src="/images/cappuccino.jpg" alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #3C2A1A, #5A4232)" />
+            <ImageWithFallback src={images.cappuccino} alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #3C2A1A, #5A4232)" />
           </div>
           <div className="absolute top-0 left-1/3 w-1/3 h-full">
-            <ImageWithFallback src="/images/spritz.jpg" alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #C4622D, #A84E1F)" />
+            <ImageWithFallback src={images.spritz} alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #C4622D, #A84E1F)" />
           </div>
           <div className="absolute top-0 left-2/3 w-1/3 h-full">
-            <ImageWithFallback src="/images/panino.jpg" alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #7B8C5E, #5A8F5C)" />
+            <ImageWithFallback src={images.panino} alt="" className="w-full h-full object-cover" fallbackGradient="linear-gradient(135deg, #7B8C5E, #5A8F5C)" />
           </div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 text-center">
@@ -143,7 +144,7 @@ export default function MenuPage() {
               )}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                 {currentCategory.items.map((item) => (
-                  <MenuCard key={item.id} item={item} categoryImage={categoryImages[currentCategory.id] || '/images/cappuccino.jpg'} />
+                  <MenuCard key={item.id} item={item} categoryImage={categoryImages[currentCategory.id] || images.cappuccino} />
                 ))}
               </div>
             </div>
