@@ -153,13 +153,13 @@ export const menuCategories: MenuCategory[] = [
         id: 'acqua',
         name: 'Acqua',
         price: 1.00,
-        image: 'https://images.unsplash.com/photo-edBR3b2JAuA?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'red-bull',
         name: 'Red Bull',
         price: 3.50,
-        image: 'https://images.unsplash.com/photo-ArFB6Tz7it8?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1570526427001-9d80d114054d?auto=format&fit=crop&w=800&q=80',
       },
       {
         id: 'crodino',
