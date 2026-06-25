@@ -100,7 +100,7 @@ function MattinaGallery() {
   const items = [
     { src: images.cappuccino, alt: 'Cappuccino con latte art', label: 'Caffetteria' },
     { src: images.cornetto, alt: 'Cornetto sfogliato', label: 'Colazioni' },
-    { src: images.Mattina, alt: 'Colazione completa', label: 'Mattina' },
+    { src: images.breakfast, alt: 'Colazione completa', label: 'Mattina' },
     { src: images.pastries, alt: 'Pasticceria fresca', label: 'Pasticceria' },
   ];
 
