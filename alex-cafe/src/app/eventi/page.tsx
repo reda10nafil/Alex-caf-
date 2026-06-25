@@ -47,7 +47,7 @@ export default function EventiPage() {
                 {featuredEvent.bookingEnabled && (
                   <Link href="/prenota" className="inline-flex items-center px-8 py-4 bg-[var(--color-accent)] text-white font-semibold text-lg rounded-[var(--radius-lg)] hover:bg-[var(--color-accent-dark)] active:scale-[0.98] touch-manipulation transition-all duration-150 min-h-[52px]">
                     Prenota posto
-                  </a>
+                  </Link>
                 )}
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function EventiPage() {
                     {event.bookingEnabled && (
                       <Link href="/prenota" className="inline-flex items-center px-5 py-2.5 bg-[var(--color-accent)] text-white text-sm font-semibold rounded-[var(--radius-lg)] hover:bg-[var(--color-accent-dark)] active:scale-[0.98] touch-manipulation transition-all min-h-[44px]">
                         Prenota posto
-                      </a>
+                      </Link>
                     )}
                   </div>
                 </div>
