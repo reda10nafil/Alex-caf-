@@ -5,24 +5,24 @@
 
 export const images = {
   // Hero / Brand
-  hero: '/images/hero-storefront.jpg',
-  heroFallback: '/images/hero-storefront.jpg',
+  hero: '/Alex-caf-/images/hero-storefront.jpg',
+  heroFallback: '/Alex-caf-/images/hero-storefront.jpg',
 
   // Food & Drink — used in menu highlights, homepage sections
-  cappuccino: '/images/cappuccino.jpg',
-  cornetto: '/images/cornetto.jpg',
-  breakfast: '/images/breakfast.jpg',
-  panino: '/images/panino.jpg',
-  spritz: '/images/spritz.jpg',
-  aperitivo: '/images/aperitivo.jpg',
-  espresso: '/images/espresso.jpg',
-  pasta: '/images/pasta.jpg',
-  pastries: '/images/pastries.jpg',
-  sandwich: '/images/sandwich.jpg',
+  cappuccino: '/Alex-caf-/images/cappuccino.jpg',
+  cornetto: '/Alex-caf-/images/cornetto.jpg',
+  breakfast: '/Alex-caf-/images/breakfast.jpg',
+  panino: '/Alex-caf-/images/panino.jpg',
+  spritz: '/Alex-caf-/images/spritz.jpg',
+  aperitivo: '/Alex-caf-/images/aperitivo.jpg',
+  espresso: '/Alex-caf-/images/espresso.jpg',
+  pasta: '/Alex-caf-/images/pasta.jpg',
+  pastries: '/Alex-caf-/images/pastries.jpg',
+  sandwich: '/Alex-caf-/images/sandwich.jpg',
 
   // Atmosphere
-  interior: '/images/interior.jpg',
-  exterior: '/images/exterior.jpg',
+  interior: '/Alex-caf-/images/interior.jpg',
+  exterior: '/Alex-caf-/images/exterior.jpg',
 } as const;
 
 // Image metadata for alt text and captions
