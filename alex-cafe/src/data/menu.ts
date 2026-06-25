@@ -96,7 +96,6 @@ export const menuCategories: MenuCategory[] = [
       { id: 'tennets', name: "Tennet's", price: 3.50, image: 'https://images.unsplash.com/photo-1608270586620-248524c67de9?auto=format&fit=crop&w=800&q=80' },
     ],
   },
-  {
       {
     id: 'bevande',
     name: 'Bevande',
