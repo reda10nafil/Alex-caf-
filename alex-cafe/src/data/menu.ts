@@ -76,7 +76,7 @@ export const menuCategories: MenuCategory[] = [
       { id: 'panino-mignon', name: 'Panino Mignon', price: 1.50, image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80' },
       { id: 'pizzetta', name: 'Pizzetta', price: 2.00, image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80' },
       { id: 'tost', name: 'Tost', price: 3.00, image: 'https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80' },
-      { id: 'piadina', name: 'Piadina', price: 4.00, image: 'https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=80' },
+      { id: 'piadina', name: 'Piadina', price: 4.00, image: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80' },
     ],
   },
   {
